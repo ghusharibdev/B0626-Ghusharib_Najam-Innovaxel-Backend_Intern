@@ -14,7 +14,7 @@ public class RegistrationResponse {
     private Long registrationId;
     private Long eventId;
     private String eventName;
-    private String userName;
+    private String username;
     private RegistrationStatus status;
     private LocalDateTime registeredAt;
     private LocalDateTime cancelledAt;

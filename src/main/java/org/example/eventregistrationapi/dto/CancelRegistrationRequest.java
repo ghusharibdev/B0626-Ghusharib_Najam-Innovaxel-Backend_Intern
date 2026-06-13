@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 public class CancelRegistrationRequest {
     @NotBlank(message = "User name is required")
     @Size(min = 2, max = 50, message = "User name must be 2 to 50 characters")
-    private String userName;
+    private String username;
 }
