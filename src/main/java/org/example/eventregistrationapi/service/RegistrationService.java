@@ -60,6 +60,7 @@ public class RegistrationService {
         return mapToRegistrationResponse(savedRegistration);
     }
 
+    @Transactional
     public RegistrationResponse cancelRegistration(Long eventId, CancelRegistrationRequest request){
         Event event = eventRepository.findByEventId(eventId).orElseThrow(()->new RuntimeException("Event not found"));
 
