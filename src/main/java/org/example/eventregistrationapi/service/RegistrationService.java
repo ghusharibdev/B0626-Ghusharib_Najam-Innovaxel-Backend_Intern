@@ -66,7 +66,7 @@ public class RegistrationService {
 
         Registration registration = registrationRepository.findByEventAndUserNameIgnoreCaseAndStatus(
                 event,
-                request.getUserName(),
+                request.getUsername(),
                 RegistrationStatus.ACTIVE
         ).orElseThrow(() -> new RuntimeException("Active registration not found"));
 
