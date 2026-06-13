@@ -18,7 +18,6 @@ public class CreateEventRequest {
     String eventName;
 
     @Positive(message = "Total seats must be greater than 0")
-            @NotNull
     int totalSeats;
 
     @NotNull(message = "Date is required")
