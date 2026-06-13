@@ -39,7 +39,7 @@ This project uses H2 file-based database. Data remains saved between application
 
 ## H2 Console
 URL: /h2-console  
-JDBC URL: jdbc:h2:file:./data/innovaxel_db  
+JDBC URL: jdbc:h2:file:./data/eventregistration_db
 Username: sa  
 Password: empty
 
